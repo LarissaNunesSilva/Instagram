@@ -1,20 +1,23 @@
+// import Error from "./containers/Error";
+import Feed from "./containers/Feed";
+import { createGlobalStyle } from "styled-components";
+
+const GlobalStyle = createGlobalStyle`
+  body {
+    font-family: "Open Sans", sans-serif;
+  }
+  *{
+    margin:0;
+    padding:0;
+  }
+`;
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <GlobalStyle />
+      <Feed />
+    </>
   );
 }
 
