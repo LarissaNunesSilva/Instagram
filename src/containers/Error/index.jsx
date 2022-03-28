@@ -7,7 +7,6 @@ import Footer from "../../components/dumb/Footer";
 function Error() {
   return (
     <>
-      <Header />
       <Title>Esta página não está disponível.</Title>
       <Text>
         O link em que você clicou pode não estar funcionando, ou a página pode
