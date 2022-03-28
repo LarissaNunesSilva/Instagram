@@ -8,13 +8,13 @@ function Feed() {
     <>
       <Styled.Container>
         <PostFeed
-          profile={{ name: "Gato Persa", picture: gatoPersa }}
+          profile={{ name: "gato.persa", picture: gatoPersa }}
           post={gatoPersa}
           description="Se alongando ao ar livre!"
           pastTime="12 dias atrás"
         />
         <PostFeed
-          profile={{ name: "Maine Coon", picture: maineCoon }}
+          profile={{ name: "maine.coon", picture: maineCoon }}
           post={maineCoon}
           description="Dando uma volta para aquecer as patas."
           pastTime="15 dias atrás"

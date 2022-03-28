@@ -80,8 +80,8 @@ export const Photo = styled.img`
   height: 200px;
 `;
 
-export const Description = styled.div`
-  font-size: 15px;
+export const Description = styled.p`
+  font-size: 14px;
   margin-left: 4px;
 `;
 
